@@ -14,6 +14,11 @@ app.get('/siddhi',(req,res) => {
 app.get('/shri',(req,res) => {
     res.send('Hello shri!');
 })
+
+app.get('/aai',(req,res) => {
+    res.send('Hello aai!');
+})
+
 app.listen(process.env.port,()=>{
     console.log(`Server is running at http://localhost:${port}`);
 })
